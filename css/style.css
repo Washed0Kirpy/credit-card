@@ -1,5 +1,5 @@
 .paypal{
-    color: white;
+    color: rgb(0, 0, 0);
     width: 145px;
     height: 29px;
     margin-top: 419px;
@@ -9,4 +9,13 @@
     line-height: 29.26px;
     letter-spacing: 36.5%;
     text-align: center;
+}
+.grznar1{
+    color: rgb(0, 0, 0);
+    width: 17px;
+    height: 3.52px;
+    margin-top: 180px;
+    margin-left: 447.06px;
+    border: 2px;
+    rotate: -45°;
 }
