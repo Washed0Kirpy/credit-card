@@ -1,21 +1,69 @@
+body{
+    background-color: #202020;
+}
 .paypal{
-    color: rgb(0, 0, 0);
-    width: 145px;
-    height: 29px;
-    margin-top: 419px;
-    margin-left: 247px;
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 29.26px;
-    letter-spacing: 36.5%;
-    text-align: center;
+    color: rgb(255, 255, 255);
 }
 .grznar1{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     width: 17px;
     height: 3.52px;
     margin-top: 180px;
     margin-left: 447.06px;
     border: 2px;
     rotate: -45°;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    position: relative;
+}
+
+.creditcard{
+    background-color: #a72a2ac2;
+    width: 296px;
+    height: 175px;
+    border-radius: 20px;
+    z-index: 10;
+}
+
+#Circle1{
+    background-color: #27346A;
+    border-radius: 50%;
+    padding: 90px;
+    position: absolute;
+    top: 288px;
+    left: 672px;
+    z-index: 1;
+}
+
+#Circle2{
+    background-color: #2790C3;
+    border-radius: 50%;
+    padding: 61.5px;
+    position: absolute;
+    top: 532px;
+    left: 451px;
+    z-index: 1;
+}
+.logo{
+    width: 190px;
+    height: 163px;
+    position: absolute;
+    top: 425px;
+    left: 642px;
+    z-index: 1;
+}
+.mastercard{
+    width: 190px;
+    height: 163px;
+    position: absolute;
+    top: 425px;
+    left: 642px;
+    z-index: 1;
 }
